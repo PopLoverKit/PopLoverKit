@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PopLoverKit_Example' do
+  pod 'PopLoverKit', :path => '../'
+
+  target 'PopLoverKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
