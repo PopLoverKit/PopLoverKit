@@ -12,8 +12,10 @@
 		5557B9F59EB7E6D711C24B7F7DE31659 /* Pods-PopLoverKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 467390F8163475AEA3E5639272E2AD12 /* Pods-PopLoverKit_Example-dummy.m */; };
 		615C7B1DB0861B8891B22762065C1172 /* PopLoverKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4A20326C049865A811F3409826A5B0 /* PopLoverKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77D949CB05B0CF0345D7BA650FB03C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7BEF549326AEE1B6008087A1 /* PopLoverKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF549226AEE1B6008087A1 /* PopLoverKit.m */; };
+		7BEF549426AEE1B6008087A1 /* PopLoverKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF549226AEE1B6008087A1 /* PopLoverKit.m */; };
+		7BEF549526AEE1B6008087A1 /* PopLoverKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF549226AEE1B6008087A1 /* PopLoverKit.m */; };
 		95CAFB1DD07A4602A4E1CEC0BB4FA026 /* Pods-PopLoverKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 490C41E9E3072BB882A1E81A32FE9C57 /* Pods-PopLoverKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC189D46DCE8184FBA54C013779B3975 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B9ABAC23D30DCBE26B8D77F5D66FC /* ReplaceMe.m */; };
 		D161DA80F00E923B2F4A846C667A8556 /* Pods-PopLoverKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB39F0A49F208323940F6A6634CD7BE9 /* Pods-PopLoverKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8906ADED4946261C10513DFE4EE8A9F /* PopLoverKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE69DE103F677BC036BEA1A4FDF62F /* PopLoverKit-dummy.m */; };
 		E9552B7F1EA561D545CA29DB05BFDCA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -57,7 +59,7 @@
 		6FEF0F6F8A605205008D615FDAAACFC8 /* PopLoverKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopLoverKit.modulemap; sourceTree = "<group>"; };
 		712AF423DEE7F85EE5728ED70A277B9A /* Pods-PopLoverKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopLoverKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8A9B9ABAC23D30DCBE26B8D77F5D66FC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PopLoverKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		7BEF549226AEE1B6008087A1 /* PopLoverKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopLoverKit.m; sourceTree = "<group>"; };
 		9162F490082DE06957169CF21AF06B9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9229965FE270CC66CC189A10C0459B1D /* PopLoverKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopLoverKit.debug.xcconfig; sourceTree = "<group>"; };
 		9709FABED2BD01913B4B26DAA92880E3 /* PopLoverKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopLoverKit.release.xcconfig; sourceTree = "<group>"; };
@@ -144,7 +146,7 @@
 		5E238AEFAFCF0F302631041FD83E114C /* PopLoverKit */ = {
 			isa = PBXGroup;
 			children = (
-				8A9B9ABAC23D30DCBE26B8D77F5D66FC /* ReplaceMe.m */,
+				7BEF549226AEE1B6008087A1 /* PopLoverKit.m */,
 				295C65189ED90FDA1B7F32884858B6B9 /* Pod */,
 				247E013E621EDF2FA9D5F2855F90AEFE /* Support Files */,
 			);
@@ -368,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5557B9F59EB7E6D711C24B7F7DE31659 /* Pods-PopLoverKit_Example-dummy.m in Sources */,
+				7BEF549326AEE1B6008087A1 /* PopLoverKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8906ADED4946261C10513DFE4EE8A9F /* PopLoverKit-dummy.m in Sources */,
-				BC189D46DCE8184FBA54C013779B3975 /* ReplaceMe.m in Sources */,
+				7BEF549526AEE1B6008087A1 /* PopLoverKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				222D1AA39B11FDA7AF3C719702E9E10B /* Pods-PopLoverKit_Tests-dummy.m in Sources */,
+				7BEF549426AEE1B6008087A1 /* PopLoverKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
