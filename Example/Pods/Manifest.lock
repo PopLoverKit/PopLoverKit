@@ -1,0 +1,16 @@
+PODS:
+  - PopLoverKit (0.1.0)
+
+DEPENDENCIES:
+  - PopLoverKit (from `../`)
+
+EXTERNAL SOURCES:
+  PopLoverKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PopLoverKit: 0f08ddea040e5cc5b2f2217004a67e6aefa77b0f
+
+PODFILE CHECKSUM: c3b7fbb4d7d0cd644e69be728f83581417c8490e
+
+COCOAPODS: 1.10.1

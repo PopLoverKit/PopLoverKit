@@ -1,0 +1,6 @@
+framework module Pods_PopLoverKit_Example {
+  umbrella header "Pods-PopLoverKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
