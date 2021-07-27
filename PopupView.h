@@ -10,5 +10,5 @@
 
 @interface PopupView : UIViewController
 - (void)viewDidLoad;
-- (void) backClicked;
+//- (void) backClicked:(UIButton*)sender;
 @end

@@ -28,6 +28,7 @@
         [self.view addSubview:blurEffectView]; //if you have more UIViews, use an insertSubview API to place it where needed
     } else {
         self.view.backgroundColor = [UIColor blackColor];
+        
     }
     PopupView *popupView = [[PopupView alloc] init ];    
     [UIView animateWithDuration:0.3 animations:^{
