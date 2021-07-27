@@ -23,7 +23,7 @@
     UIButton *but= [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [but addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
     [but setFrame:CGRectMake(52, 252, 215, 40)];
-    [but setTitle:@"button" forState:UIControlStateNormal];
+    [but setTitle:@"Button" forState:UIControlStateNormal];
     [but setExclusiveTouch:YES];
 
      // if you like to add backgroundImage else no need
@@ -45,6 +45,8 @@
      
 
  }
+
+
 
 
 @end

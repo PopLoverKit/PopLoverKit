@@ -12,6 +12,9 @@
 		5557B9F59EB7E6D711C24B7F7DE31659 /* Pods-PopLoverKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 467390F8163475AEA3E5639272E2AD12 /* Pods-PopLoverKit_Example-dummy.m */; };
 		615C7B1DB0861B8891B22762065C1172 /* PopLoverKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4A20326C049865A811F3409826A5B0 /* PopLoverKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77D949CB05B0CF0345D7BA650FB03C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7B4E2DE626B0358F00272D0E /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E2DE526B0358F00272D0E /* PopupView.m */; };
+		7B4E2DE726B0358F00272D0E /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E2DE526B0358F00272D0E /* PopupView.m */; };
+		7B4E2DE826B0358F00272D0E /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E2DE526B0358F00272D0E /* PopupView.m */; };
 		7BEF549526AEE1B6008087A1 /* PopLoverKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF549226AEE1B6008087A1 /* PopLoverKit.m */; };
 		95CAFB1DD07A4602A4E1CEC0BB4FA026 /* Pods-PopLoverKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 490C41E9E3072BB882A1E81A32FE9C57 /* Pods-PopLoverKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D161DA80F00E923B2F4A846C667A8556 /* Pods-PopLoverKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB39F0A49F208323940F6A6634CD7BE9 /* Pods-PopLoverKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -60,6 +63,8 @@
 		6FEF0F6F8A605205008D615FDAAACFC8 /* PopLoverKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopLoverKit.modulemap; sourceTree = "<group>"; };
 		712AF423DEE7F85EE5728ED70A277B9A /* Pods-PopLoverKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopLoverKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B4E2DE426B0355D00272D0E /* PopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupView.h; sourceTree = "<group>"; };
+		7B4E2DE526B0358F00272D0E /* PopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupView.m; sourceTree = "<group>"; };
 		7BEF549226AEE1B6008087A1 /* PopLoverKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopLoverKit.m; sourceTree = "<group>"; };
 		9162F490082DE06957169CF21AF06B9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9229965FE270CC66CC189A10C0459B1D /* PopLoverKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopLoverKit.debug.xcconfig; sourceTree = "<group>"; };
@@ -148,6 +153,8 @@
 		5E238AEFAFCF0F302631041FD83E114C /* PopLoverKit */ = {
 			isa = PBXGroup;
 			children = (
+				7B4E2DE426B0355D00272D0E /* PopupView.h */,
+				7B4E2DE526B0358F00272D0E /* PopupView.m */,
 				D755913526AEF24E0045BFC1 /* PopLoverKit.h */,
 				7BEF549226AEE1B6008087A1 /* PopLoverKit.m */,
 				295C65189ED90FDA1B7F32884858B6B9 /* Pod */,
@@ -373,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4E2DE626B0358F00272D0E /* PopupView.m in Sources */,
 				5557B9F59EB7E6D711C24B7F7DE31659 /* Pods-PopLoverKit_Example-dummy.m in Sources */,
 				D755913A26AEF50C0045BFC1 /* PopLoverKit.m in Sources */,
 			);
@@ -382,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4E2DE826B0358F00272D0E /* PopupView.m in Sources */,
 				D8906ADED4946261C10513DFE4EE8A9F /* PopLoverKit-dummy.m in Sources */,
 				7BEF549526AEE1B6008087A1 /* PopLoverKit.m in Sources */,
 			);
@@ -391,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4E2DE726B0358F00272D0E /* PopupView.m in Sources */,
 				222D1AA39B11FDA7AF3C719702E9E10B /* Pods-PopLoverKit_Tests-dummy.m in Sources */,
 				D755913926AEF50B0045BFC1 /* PopLoverKit.m in Sources */,
 			);

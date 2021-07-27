@@ -7,10 +7,10 @@
 
 #import <Foundation/Foundation.h>
 #import "PopLoverKit.h"
+#import "PopupView.h"
 @interface PopPicker ()
 
 @end
-
 
 @implementation PopPicker
 
@@ -29,6 +29,11 @@
     } else {
         self.view.backgroundColor = [UIColor blackColor];
     }
-
+    PopupView *popupView = [[PopupView alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 120,self.view.frame.size.height / 2 - 120, 240, 240)];
+    popupView.backgroundColor = [UIColor whiteColor];
+    [UIView animateWithDuration:0.3 animations:^{
+        [self.view addSubview:popupView];
+        }];
 }
+
 @end
