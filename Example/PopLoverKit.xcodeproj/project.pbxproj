@@ -12,7 +12,6 @@
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* POPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* POPAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* POPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* POPViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
@@ -22,8 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8DDEBAAB26A0B8B84B1F8898 /* Pods_PopLoverKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02D8A2C0E82D43B32886C70 /* Pods_PopLoverKit_Tests.framework */; };
+		D755913D26AF044E0045BFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D755913B26AF044E0045BFC1 /* Main.storyboard */; };
+		D755913F26AF04620045BFC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D755913E26AF04620045BFC1 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6003F595195388D20070C39A /* PopLoverKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopLoverKit-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* PopLoverKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopLoverKit-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* POPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* POPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POPAppDelegate.m; sourceTree = "<group>"; };
@@ -59,14 +58,15 @@
 		70507F6CDD591BEE0F30846C /* Pods-PopLoverKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopLoverKit_Example.release.xcconfig"; path = "Target Support Files/Pods-PopLoverKit_Example/Pods-PopLoverKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BE6FA0768504C580EFD7A02 /* Pods_PopLoverKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopLoverKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2F8819D8CE1E7F74BD9D99C /* Pods-PopLoverKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopLoverKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PopLoverKit_Tests/Pods-PopLoverKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BB8297CAD2217843E8068B9B /* PopLoverKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PopLoverKit.podspec; path = ../PopLoverKit.podspec; sourceTree = "<group>"; };
+		BB8297CAD2217843E8068B9B /* PopLoverKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PopLoverKit.podspec; path = ../PopLoverKit.podspec; sourceTree = "<group>"; };
+		D755913C26AF044E0045BFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D755913E26AF04620045BFC1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E02D8A2C0E82D43B32886C70 /* Pods_PopLoverKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopLoverKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C65370A52823CEE2A40A3C /* Pods-PopLoverKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopLoverKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-PopLoverKit_Tests/Pods-PopLoverKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F687EC6B92D300C1DA6DB12B /* Pods-PopLoverKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopLoverKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-PopLoverKit_Example/Pods-PopLoverKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F9C0FBA9A3FDB2818198D8C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FBCF9F1EEB9C54AE82629F73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F9C0FBA9A3FDB2818198D8C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FBCF9F1EEB9C54AE82629F73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				A2F8819D8CE1E7F74BD9D99C /* Pods-PopLoverKit_Tests.debug.xcconfig */,
 				E5C65370A52823CEE2A40A3C /* Pods-PopLoverKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,12 +143,13 @@
 		6003F593195388D20070C39A /* Example for PopLoverKit */ = {
 			isa = PBXGroup;
 			children = (
+				D755913B26AF044E0045BFC1 /* Main.storyboard */,
 				6003F59C195388D20070C39A /* POPAppDelegate.h */,
 				6003F59D195388D20070C39A /* POPAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* POPViewController.h */,
 				6003F5A6195388D20070C39A /* POPViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				D755913E26AF04620045BFC1 /* main.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -162,7 +162,6 @@
 			children = (
 				6003F595195388D20070C39A /* PopLoverKit-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* PopLoverKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,10 +277,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				D755913D26AF044E0045BFC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,8 +365,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* POPAppDelegate.m in Sources */,
+				D755913F26AF04620045BFC1 /* main.m in Sources */,
 				6003F5A7195388D20070C39A /* POPViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +411,14 @@
 				71719F9E1E33DC2100824A3D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D755913B26AF044E0045BFC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D755913C26AF044E0045BFC1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
