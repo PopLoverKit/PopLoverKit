@@ -29,10 +29,9 @@
     } else {
         self.view.backgroundColor = [UIColor blackColor];
     }
-    PopupView *popupView = [[PopupView alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 120,self.view.frame.size.height / 2 - 120, 240, 240)];
-    popupView.backgroundColor = [UIColor whiteColor];
+    PopupView *popupView = [[PopupView alloc] init ];    
     [UIView animateWithDuration:0.3 animations:^{
-        [self.view addSubview:popupView];
+        [self.view addSubview:popupView.view];
         }];
 }
 

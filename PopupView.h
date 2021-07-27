@@ -7,6 +7,8 @@
 
 @import UIKit;
 #import <Foundation/Foundation.h>
-@interface PopupView : UIView
 
+@interface PopupView : UIViewController
+- (void)viewDidLoad;
+- (void) backClicked;
 @end
