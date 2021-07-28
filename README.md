@@ -2,6 +2,8 @@
 
 PopLoverKit is a framework that provides a blurry custom text popup for your app.
 
+<img src="https://user-images.githubusercontent.com/52798996/127324826-a3f72263-4825-4a2f-b14b-540f98458a89.png" width="300">
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -18,7 +20,8 @@ pod 'PopLoverKit'
 
 ## Author
 
-Patricia Sampaio, Cecília Soares
+* **Cecília Soares** - [ceciliasoa](https://github.com/ceciliasoa/) 
+* **Patrícia Sampaio** - [patysiq](https://github.com/patysiq)
 
 ## License
 
