@@ -6,6 +6,13 @@
 //
 @import UIKit;
 #import <Foundation/Foundation.h>
-@interface PopPicker : UIViewController
+@interface PopPicker : UIViewController{
+    UITextView *textView;
+    UIButton *back;
+    UIView *popupView;
+    UIVisualEffectView *blurEffectView;
+}
+- (void)viewDidLoad;
+- (void) backClicked:(UIButton*)sender;
 
 @end
