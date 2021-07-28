@@ -7,12 +7,18 @@
 //
 
 #import "POPAppDelegate.h"
+#import "POPViewController.h"
 
 @implementation POPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+   
+    
+    POPViewController *controler = [[POPViewController alloc] init];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:controler];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
