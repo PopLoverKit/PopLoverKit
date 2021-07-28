@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PopLoverKit'
   s.version          = '0.1.0'
-  s.summary          = 'PopLoverKit is a framework provides a custom popup with blur with picker for your application.'
+  s.summary          = 'PopLoverKit is a framework that provides a blurry custom text popup for your app.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

@@ -1,15 +1,11 @@
 # PopLoverKit
 
-[![CI Status](https://img.shields.io/travis/patysiq@yahoo.com.br/PopLoverKit.svg?style=flat)](https://travis-ci.org/patysiq@yahoo.com.br/PopLoverKit)
-[![Version](https://img.shields.io/cocoapods/v/PopLoverKit.svg?style=flat)](https://cocoapods.org/pods/PopLoverKit)
-[![License](https://img.shields.io/cocoapods/l/PopLoverKit.svg?style=flat)](https://cocoapods.org/pods/PopLoverKit)
-[![Platform](https://img.shields.io/cocoapods/p/PopLoverKit.svg?style=flat)](https://cocoapods.org/pods/PopLoverKit)
+PopLoverKit is a framework that provides a blurry custom text popup for your app.
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
 
 ## Installation
 
@@ -22,7 +18,7 @@ pod 'PopLoverKit'
 
 ## Author
 
-patysiq@yahoo.com.br, patysiq@yahoo.com.br
+Patricia Sampaio, Cecília Soares
 
 ## License
 
