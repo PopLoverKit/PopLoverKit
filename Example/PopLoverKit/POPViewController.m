@@ -7,7 +7,7 @@
 //
 
 #import "POPViewController.h"
-#import "PopLoverKit-umbrella.h"
+#import "PopLoverKit.h"
 
 @interface POPViewController ()
 
@@ -29,10 +29,7 @@
     but.center = self.view.center;
     [but setTitle:@"Abrir Popover" forState:UIControlStateNormal];
     [but setExclusiveTouch:YES];
-    
-    // if you like to add backgroundImage else no need
-    //       [but setbackgroundImage:[UIImage imageNamed:@"XXX.png"] forState:UIControlStateNormal];
-    
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
     [self.view addSubview:but];
 
     
@@ -40,8 +37,7 @@
 }
 - (void) buttonClicked:(UIButton*)sender
 {
-    //NSLog(@"you clicked on button %ld", (long)sender.tag);
-    PopPicker *controler = [[PopPicker alloc] init];
+    PopView *controler = [[PopView alloc] init];
     UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:controler];
     nc.modalPresentationStyle = UIModalPresentationOverFullScreen;
     nc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;

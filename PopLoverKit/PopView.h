@@ -6,7 +6,7 @@
 //
 @import UIKit;
 #import <Foundation/Foundation.h>
-@interface PopPicker : UIViewController{
+@interface PopView : UIViewController{
     UITextView *textView;
     UIButton *back;
     UIView *popupView;

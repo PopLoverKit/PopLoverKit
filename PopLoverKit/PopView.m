@@ -8,11 +8,11 @@
 #import <Foundation/Foundation.h>
 #import "PopLoverKit.h"
 
-@interface PopPicker ()
+@interface PopView ()
 
 @end
 
-@implementation PopPicker
+@implementation PopView
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -37,18 +37,38 @@
         }];
     
     textView = [[UITextView alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 120, self.view.frame.size.height / 2 - 120, 240, 240)];
+    textView.delegate = self;
+    textView.text = @"Digite o texto";
+    textView.textColor = [UIColor lightGrayColor];
+    [textView setFont:[UIFont systemFontOfSize:15]];
     [self.view addSubview:textView];
     
     back= [UIButton buttonWithType:UIButtonTypeRoundedRect];
     back.tintColor = [UIColor blueColor];
     [back.titleLabel setFont:[UIFont systemFontOfSize:18]];
     [back addTarget:self action:@selector(backClicked:) forControlEvents:UIControlEventTouchUpInside];
-    [back setFrame:CGRectMake(self.view.frame.size.width / 2 - 50, self.view.frame.size.height / 2 + 95, 100, 50)];
-    [back setTitle:@"Voltar" forState:UIControlStateNormal];
+    [back setFrame:CGRectMake(self.view.frame.size.width / 2 - 120, self.view.frame.size.height / 2 + 120, 240, 50)];
+    [back setTitle:@"Concluir" forState:UIControlStateNormal];
+    back.backgroundColor = [UIColor whiteColor];
     [back setExclusiveTouch:YES];
     [self.view addSubview:back];
 }
-
+- (void)textViewDidBeginEditing:(UITextView *)textView
+{
+    if ([textView.text isEqualToString:@"Digite o texto"]) {
+         textView.text = @"";
+         textView.textColor = [UIColor blackColor]; //optional
+    }
+    [textView becomeFirstResponder];
+}
+- (void)textViewDidEndEditing:(UITextView *)textView
+{
+    if ([textView.text isEqualToString:@""]) {
+        textView.text = @"Digite o texto";
+        textView.textColor = [UIColor lightGrayColor]; //optional
+    }
+    [textView resignFirstResponder];
+}
 - (void) backClicked: (UIButton*)sender
  {
     [self.navigationController popViewControllerAnimated:YES];
@@ -58,6 +78,7 @@
          [self->popupView removeFromSuperview];
          [self->blurEffectView removeFromSuperview];
          }];
+     [self.navigationController dismissViewControllerAnimated:YES completion:nil];
  }
 
 @end

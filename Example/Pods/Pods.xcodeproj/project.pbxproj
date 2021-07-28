@@ -10,14 +10,17 @@
 		222D1AA39B11FDA7AF3C719702E9E10B /* Pods-PopLoverKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E35BC19D4108990AAC5A211A48D09E5 /* Pods-PopLoverKit_Tests-dummy.m */; };
 		24ED1B23B1B9828432CEBD9CFA54EAEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5557B9F59EB7E6D711C24B7F7DE31659 /* Pods-PopLoverKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 467390F8163475AEA3E5639272E2AD12 /* Pods-PopLoverKit_Example-dummy.m */; };
-		615C7B1DB0861B8891B22762065C1172 /* PopLoverKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4A20326C049865A811F3409826A5B0 /* PopLoverKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		615C7B1DB0861B8891B22762065C1172 /* PopLoverKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4A20326C049865A811F3409826A5B0 /* PopLoverKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77D949CB05B0CF0345D7BA650FB03C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7BEF549526AEE1B6008087A1 /* PopLoverKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF549226AEE1B6008087A1 /* PopLoverKit.m */; };
 		95CAFB1DD07A4602A4E1CEC0BB4FA026 /* Pods-PopLoverKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 490C41E9E3072BB882A1E81A32FE9C57 /* Pods-PopLoverKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D161DA80F00E923B2F4A846C667A8556 /* Pods-PopLoverKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB39F0A49F208323940F6A6634CD7BE9 /* Pods-PopLoverKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D755913626AEF4C60045BFC1 /* PopLoverKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D755913526AEF24E0045BFC1 /* PopLoverKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D755913926AEF50B0045BFC1 /* PopLoverKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF549226AEE1B6008087A1 /* PopLoverKit.m */; };
-		D755913A26AEF50C0045BFC1 /* PopLoverKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEF549226AEE1B6008087A1 /* PopLoverKit.m */; };
+		D755913626AEF4C60045BFC1 /* PopView.h in Headers */ = {isa = PBXBuildFile; fileRef = D755913526AEF24E0045BFC1 /* PopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D755914B26B184830045BFC1 /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = D755914A26B184830045BFC1 /* PopView.m */; };
+		D755914C26B184830045BFC1 /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = D755914A26B184830045BFC1 /* PopView.m */; };
+		D755914E26B184930045BFC1 /* showPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = D755914D26B184930045BFC1 /* showPopup.m */; };
+		D755914F26B184930045BFC1 /* showPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = D755914D26B184930045BFC1 /* showPopup.m */; };
+		D755915126B1849F0045BFC1 /* showPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = D755915026B1849F0045BFC1 /* showPopup.h */; };
+		D755915226B1849F0045BFC1 /* showPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = D755915026B1849F0045BFC1 /* showPopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8906ADED4946261C10513DFE4EE8A9F /* PopLoverKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FE69DE103F677BC036BEA1A4FDF62F /* PopLoverKit-dummy.m */; };
 		E9552B7F1EA561D545CA29DB05BFDCA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -43,7 +46,7 @@
 		081C7322946C15CB4D0E42962A0497CA /* Pods-PopLoverKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopLoverKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		0CA92ED7227DBAE1648DAFEDC55A6284 /* Pods-PopLoverKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopLoverKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		147A7E82CE8FCE362A15C2F4C06AAD37 /* PopLoverKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopLoverKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F4A20326C049865A811F3409826A5B0 /* PopLoverKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopLoverKit-umbrella.h"; sourceTree = "<group>"; };
+		1F4A20326C049865A811F3409826A5B0 /* PopLoverKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PopLoverKit.h; sourceTree = "<group>"; };
 		35FE69DE103F677BC036BEA1A4FDF62F /* PopLoverKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopLoverKit-dummy.m"; sourceTree = "<group>"; };
 		394A1371969A18202BB91CE78F7EDEF9 /* PopLoverKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopLoverKit-prefix.pch"; sourceTree = "<group>"; };
 		3B88C9423021DB65E4B1ECD0E1B5839F /* Pods_PopLoverKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopLoverKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +63,6 @@
 		6FEF0F6F8A605205008D615FDAAACFC8 /* PopLoverKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopLoverKit.modulemap; sourceTree = "<group>"; };
 		712AF423DEE7F85EE5728ED70A277B9A /* Pods-PopLoverKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PopLoverKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7BEF549226AEE1B6008087A1 /* PopLoverKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopLoverKit.m; sourceTree = "<group>"; };
 		9162F490082DE06957169CF21AF06B9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9229965FE270CC66CC189A10C0459B1D /* PopLoverKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopLoverKit.debug.xcconfig; sourceTree = "<group>"; };
 		9709FABED2BD01913B4B26DAA92880E3 /* PopLoverKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopLoverKit.release.xcconfig; sourceTree = "<group>"; };
@@ -69,7 +71,10 @@
 		C3C37AC2B1062DFC2D05889D289F728C /* Pods-PopLoverKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PopLoverKit_Example.modulemap"; sourceTree = "<group>"; };
 		C3F55378E28EF6323804CC83D1782E54 /* Pods_PopLoverKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopLoverKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22E428B3E5A0471A7EEF6E4D0B830C5 /* Pods-PopLoverKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PopLoverKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D755913526AEF24E0045BFC1 /* PopLoverKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PopLoverKit.h; path = PopLoverKit/PopLoverKit.h; sourceTree = "<group>"; };
+		D755913526AEF24E0045BFC1 /* PopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PopView.h; path = PopLoverKit/PopView.h; sourceTree = "<group>"; };
+		D755914A26B184830045BFC1 /* PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopView.m; path = PopLoverKit/PopView.m; sourceTree = "<group>"; };
+		D755914D26B184930045BFC1 /* showPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = showPopup.m; path = PopLoverKit/showPopup.m; sourceTree = "<group>"; };
+		D755915026B1849F0045BFC1 /* showPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = showPopup.h; path = PopLoverKit/showPopup.h; sourceTree = "<group>"; };
 		DB39F0A49F208323940F6A6634CD7BE9 /* Pods-PopLoverKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PopLoverKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		F3CFF0125B36DB896365F84750F10B49 /* Pods-PopLoverKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PopLoverKit_Tests.modulemap"; sourceTree = "<group>"; };
 		F794CECB1B6F5E61B405F3D3C6CCF09E /* PopLoverKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PopLoverKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
@@ -119,7 +124,7 @@
 				35FE69DE103F677BC036BEA1A4FDF62F /* PopLoverKit-dummy.m */,
 				3DA7A550182C56A2353C9F5E89273312 /* PopLoverKit-Info.plist */,
 				394A1371969A18202BB91CE78F7EDEF9 /* PopLoverKit-prefix.pch */,
-				1F4A20326C049865A811F3409826A5B0 /* PopLoverKit-umbrella.h */,
+				1F4A20326C049865A811F3409826A5B0 /* PopLoverKit.h */,
 				9229965FE270CC66CC189A10C0459B1D /* PopLoverKit.debug.xcconfig */,
 				9709FABED2BD01913B4B26DAA92880E3 /* PopLoverKit.release.xcconfig */,
 			);
@@ -148,8 +153,10 @@
 		5E238AEFAFCF0F302631041FD83E114C /* PopLoverKit */ = {
 			isa = PBXGroup;
 			children = (
-				D755913526AEF24E0045BFC1 /* PopLoverKit.h */,
-				7BEF549226AEE1B6008087A1 /* PopLoverKit.m */,
+				D755914D26B184930045BFC1 /* showPopup.m */,
+				D755913526AEF24E0045BFC1 /* PopView.h */,
+				D755915026B1849F0045BFC1 /* showPopup.h */,
+				D755914A26B184830045BFC1 /* PopView.m */,
 				295C65189ED90FDA1B7F32884858B6B9 /* Pod */,
 				247E013E621EDF2FA9D5F2855F90AEFE /* Support Files */,
 			);
@@ -243,6 +250,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D755915126B1849F0045BFC1 /* showPopup.h in Headers */,
 				D161DA80F00E923B2F4A846C667A8556 /* Pods-PopLoverKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,8 +259,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D755913626AEF4C60045BFC1 /* PopLoverKit.h in Headers */,
-				615C7B1DB0861B8891B22762065C1172 /* PopLoverKit-umbrella.h in Headers */,
+				D755915226B1849F0045BFC1 /* showPopup.h in Headers */,
+				D755913626AEF4C60045BFC1 /* PopView.h in Headers */,
+				615C7B1DB0861B8891B22762065C1172 /* PopLoverKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,8 +382,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D755914E26B184930045BFC1 /* showPopup.m in Sources */,
 				5557B9F59EB7E6D711C24B7F7DE31659 /* Pods-PopLoverKit_Example-dummy.m in Sources */,
-				D755913A26AEF50C0045BFC1 /* PopLoverKit.m in Sources */,
+				D755914B26B184830045BFC1 /* PopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,8 +392,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D755914F26B184930045BFC1 /* showPopup.m in Sources */,
 				D8906ADED4946261C10513DFE4EE8A9F /* PopLoverKit-dummy.m in Sources */,
-				7BEF549526AEE1B6008087A1 /* PopLoverKit.m in Sources */,
+				D755914C26B184830045BFC1 /* PopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +403,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				222D1AA39B11FDA7AF3C719702E9E10B /* Pods-PopLoverKit_Tests-dummy.m in Sources */,
-				D755913926AEF50B0045BFC1 /* PopLoverKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
