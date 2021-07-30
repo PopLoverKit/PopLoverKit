@@ -15,4 +15,3 @@ FOUNDATION_EXPORT double PopLoverKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char PopLoverKitVersionString[];
 
 #import "PopView.h"
-#import "showPopup.h"
