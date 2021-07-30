@@ -2,7 +2,7 @@
 
 PopLoverKit is a framework that provides a blurry custom text popup for your app.
 
-<img src="https://user-images.githubusercontent.com/52798996/127324826-a3f72263-4825-4a2f-b14b-540f98458a89.png" width="300">
+<img src="https://user-images.githubusercontent.com/52798996/127658086-0f9ba9c4-a1d6-4861-93cb-690df8eb1924.png" width="300">
 
 ## Example
 
