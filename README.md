@@ -2,21 +2,15 @@
 
 PopLoverKit is a framework that provides a blurry custom text popup for your app.
 
-<img src="https://user-images.githubusercontent.com/52798996/127324826-a3f72263-4825-4a2f-b14b-540f98458a89.png" width="300">
+<img src="https://user-images.githubusercontent.com/52798996/138461291-f4df2be8-e206-4a90-bf02-1f969ce9627f.png" width="300">
+
 
 ## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
+To run the example project, clone the repo, and run the `PopLoverKit_exemple` target.
 
 ## Installation
 
-PopLoverKit is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'PopLoverKit'
-```
+To install it, simply clone the repo, and run `pod install`.
 
 ## Author
 
